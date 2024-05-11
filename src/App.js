@@ -3,8 +3,8 @@ import TodoRow from "./components/todoRow/TodoRow";
 
 const App = () => {
   const [todos, setTodos] = useState([
-    { id: 2, text: "Meeting", completed: false },
-    { id: 3, text: "Travel", completed: false },
+    { id: 1, text: "Meeting", completed: false },
+    { id: 2, text: "Travel", completed: false },
   ]);
   const [newTodoText, setNewTodoText] = useState("");
 
